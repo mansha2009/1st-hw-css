@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #00b500;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]: hover {
+  background-color: #00a100;
+}
+
+div {background-color: #d9d9d9;
+  padding: 15px;
+}
+</style>
+<body>
+
+<h2>Please fill the form with your current information, </h2>
+
+<div>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" placeholder="Your name...">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname” placeholder="Your last name...">
+
+    <label for="gender">Select your gender </label>
+    <select id="Gender" >
+      <option value="female">Female</option>
+      <option value="male">Male</option>
+      <option value="rather not say">Rather not say</option>
+    </select>
+    
+     <label for="email">E-mail</label>
+    <input type="text" id="email” placeholder="Your e-mail...">
+    
+    
+     <label for="phoneno">Phone number</label>
+    <input type="text" id="phoneno” placeholder="Your phone number...">
+    
+     <label for="communication">Preferred mode of communication</label>
+    <select id="communication" >
+      <option value="email">E-mail</option>
+      <option value="phoneno">Phone number</option>
+    </select>
+    
+     <label for="address">Address</label>
+    <input type="text" id="address” placeholder="Your address...">
+    
+ 
+    
+     <label for="experience">   Do you have any work experience regarding this job? </label>
+    <select id="experience" >
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+    
+     <label for="enroll">Why do you want to enroll in us? </label>
+    <input type="text" id="enroll” placeholder="Your reason...">
+   
+  
+    <input type="submit" value="Submit">
+
+</div>
+
+</body>
+</html>
